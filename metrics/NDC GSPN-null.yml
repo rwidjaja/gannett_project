@@ -1,0 +1,6 @@
+unique_name: NDC GSPN-null
+object_type: metric
+label: NDC GSPN
+calculation_method: count non-null
+column: a_gspn
+dataset: subscriptions_weekly_dataset

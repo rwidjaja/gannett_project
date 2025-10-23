@@ -1,0 +1,112 @@
+unique_name: subscriptions_weekly_dataset
+object_type: dataset
+label: subscriptions_weekly_dataset
+columns:
+  - name: id_subscrip
+    data_type: int
+  - name: subscriptions_main_id_system
+    data_type: int
+  - name: subscriptions_main_id_system_source
+    data_type: int
+  - name: subscriptions_main_mdm_product_id
+    data_type: int
+  - name: subscriptions_main_account_number
+    data_type: string
+  - name: subscriptions_main_id_sub_type
+    data_type: string
+  - name: billing_info_payment_schedule
+    data_type: string
+  - name: billing_info_billing_method
+    data_type: string
+  - name: card_on_file_cc_type
+    data_type: string
+  - name: card_on_file_cc_expire_date
+    data_type: string
+  - name: card_on_file_card_type
+    data_type: string
+  - name: card_on_file_card_level
+    data_type: string
+  - name: card_on_file_card_bin
+    data_type: string
+  - name: delivery_zone
+    data_type: string
+  - name: delivery_district
+    data_type: string
+  - name: delivery_route
+    data_type: string
+  - name: fod_cm_fod
+    data_type: string
+  - name: fod_previous_cm_fod
+    data_type: string
+  - name: grace_dates_subscription_expire_date
+    data_type: date
+  - name: grace_dates_grace_end_date
+    data_type: date
+  - name: licenses_license_id
+    data_type: int
+  - name: licenses_is_active
+    data_type: boolean
+  - name: licenses_license_type
+    data_type: string
+  - name: licenses_date_created
+    data_type: date
+  - name: address_delivery_zip_code
+    data_type: string
+  - name: address_delivery_city
+    data_type: string
+  - name: address_delivery_state
+    data_type: string
+  - name: rates_new_rate_key_system
+    data_type: string
+  - name: rates_new_rate_key_value
+    data_type: string
+  - name: rates_new_monthly_rate
+    data_type: double
+  - name: subscriptions_main_status
+    data_type: string
+  - name: subscriptions_main_is_active_temp_stop_30_days
+    data_type: string
+  - name: tenure_episodes_effective_date_equals_original_start_date
+    data_type: string
+  - name: date
+    data_type: datetime
+  - name: subscriptions_by_week_tenure_bucket
+    data_type: string
+  - name: grace_entry_by_week_grace_entry_week
+    data_type: int
+  - name: grace_entry_by_week_grace_entry_date
+    data_type: date
+  - name: grace_entry_by_week_grace_week_number
+    data_type: int
+  - name: retention_by_week_retention_weeks
+    data_type: int
+  - name: subscriptions_by_week_tenure_weeks
+    data_type: int
+  - name: delivery_delivery_method
+    data_type: string
+  - name: billing_info_payment_method
+    data_type: string
+  - name: rates_new_previous_week_rate_key_value
+    data_type: string
+  - name: rfv_by_id_subscrip_rfv_bin
+    data_type: string
+  - name: publication_id
+    data_type: int
+  - name: zone-district-route
+    data_type: string
+  - name: profile_attribute_last_access_bin
+    data_type: string
+  - name: profile_attribute_last_access_date
+    data_type: date
+  - name: a_gspn
+    data_type: string
+  - name: anchor
+    data_type: int
+  - name: billing_stack
+    data_type: int
+  - name: is_anchor
+    data_type: string
+  - name: is_billing_stack
+    data_type: string
+connection_id: gannett_project
+table: subscriptions_weekly

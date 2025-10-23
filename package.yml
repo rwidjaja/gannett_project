@@ -1,0 +1,6 @@
+version: 1
+packages:
+  - version: commit:7ea2477e0a51d190daf279f1df9f7e3a50ad4b75
+    name: shared
+    url: https://github.com/rwidjaja/gannett_dimensions
+    branch: main

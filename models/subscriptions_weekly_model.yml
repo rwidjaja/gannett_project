@@ -1,0 +1,6 @@
+unique_name: subscriptions_weekly_model
+object_type: model
+label: subscriptions_weekly_model
+metrics:
+  - unique_name: NDC GSPN-null
+relationships: []

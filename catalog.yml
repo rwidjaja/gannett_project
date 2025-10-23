@@ -1,0 +1,6 @@
+version: 1.3
+unique_name: Gannet_Project
+object_type: catalog
+label: Gannet_Project
+aggressive_agg_promotion: false
+build_speculative_aggs: true
